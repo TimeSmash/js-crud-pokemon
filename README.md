@@ -1,0 +1,1 @@
+`json-server --watch pokemon-json.json` You need this

@@ -1,0 +1,156 @@
+{
+  "pokemon": [
+    {
+      "name": "Bulbasaur",
+      "type": "grass",
+      "id": 1,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+      "name": "Ivysaur",
+      "type": "grass",
+      "id": 2,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    {
+      "name": "Venusaur",
+      "type": "grass",
+      "id": 3,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    {
+      "name": "charmander",
+      "type": "fire",
+      "id": 4,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+      "name": "charmeleon",
+      "type": "fire",
+      "id": 5,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    {
+      "name": "charizard",
+      "type": "fire",
+      "id": 6,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    {
+      "name": "Squirtle",
+      "type": "water",
+      "id": 7,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    {
+      "name": "wartortle",
+      "type": "water",
+      "id": 8,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    {
+      "name": "blastoise",
+      "type": "water",
+      "id": 9,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    },
+    {
+      "name": "caterpie",
+      "type": "bug",
+      "id": 10,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    },
+    {
+      "name": "metapod",
+      "type": "bug",
+      "id": 11,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    },
+    {
+      "name": "butterfree",
+      "type": "bug",
+      "id": 12,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    },
+    {
+      "name": "weedle",
+      "type": "bug",
+      "id": 13,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    {
+      "name": "kakuna",
+      "type": "bug",
+      "id": 14,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    {
+      "name": "beedrill",
+      "type": "bug",
+      "id": 15,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    },
+    {
+      "name": "pidgey",
+      "type": "flying",
+      "id": 16,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+    },
+    {
+      "name": "pidgeotto",
+      "type": "flying",
+      "id": 17,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+    },
+    {
+      "name": "pidgeot",
+      "type": "flying",
+      "id": 18,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    },
+    {
+      "name": "rattata",
+      "type": "normal",
+      "id": 19,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+    },
+    {
+      "name": "raticate",
+      "type": "normal",
+      "id": 20,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+    },
+    {
+      "name": "Terra",
+      "type": "Fire",
+      "image": {
+        "front_default": "https://i.pinimg.com/originals/91/70/1f/91701f1a3269ebede0c39645da8e6975.jpg"
+      },
+      "id": 21
+    },
+    {
+      "name": "Waluigiman",
+      "type": "Rock",
+      "image": "https://pm1.narvii.com/6977/346f64dbe7985f806b30b38719b76c4a4a738381r1-822-973v2_128.jpg",
+      "id": 22
+    },
+    {
+      "name": "Wario",
+      "type": "Fighting",
+      "image": "data:image/jpeg;base64,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",
+      "id": 23
+    },
+    {
+      "name": "Princess Peach",
+      "type": "Fairy",
+      "image": "https://pa1.narvii.com/6857/c91842240408e9306d91f7afbee9f05f2a578962_128.gif",
+      "id": 24
+    },
+    {
+      "name": "Princess Daisy",
+      "type": "Grass",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f8e9e316-0ef8-4aa9-8027-4fc4ea560a1e/dc67ew6-35819165-c1da-4574-8969-85bb387b08e9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4ZTllMzE2LTBlZjgtNGFhOS04MDI3LTRmYzRlYTU2MGExZVwvZGM2N2V3Ni0zNTgxOTE2NS1jMWRhLTQ1NzQtODk2OS04NWJiMzg3YjA4ZTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.USkcpoQ6cbFBLf8NpuDmixzYmOE6IqFAvWLZNyYjTHM",
+      "id": 25
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="src/index.js" defer></script>
+    </head>
+    <body>
+        <div id="welcome">
+            <h1>Welcome to Pokemon Lists!</h1>
+            
+            <h2>This exercise displays all CRUD actions of JS using info pulled from PokeAPI. The actions are:
+            </h2>
+            
+            <h3>
+                <ul>
+                    <li><span class="bold-and-underline">Create:</span> Ability to add brand new Pokemon based on user input </li>
+                    <li><span class="bold-and-underline">Read:</span> Can see list of all pre-established Pokemon at beginning, then the subsequent edits to that list.
+                    Can also view stats for all Pokemon in JSON.</li>
+                    <li><span class="bold-and-underline">Update:</span> Alter some information about a Pokemon via a form</li>
+                    <li><span class="bold-and-underline">Delete:</span> Ability to delete Pokemon from list</li>
+                </ul>
+            </h3>
+        </div>
+        
+        <div id="make-new-pokemon-div">
+            <h1>Create a new Pokemon</h1>
+            <form id="new-pokemon-form">
+                <label for="New Pokemon Name">New Pokemon Name</label>
+                <input type="text" name="New Pokemon Name" id="new-pokemon-name">
+                <label for="New Pokemon Image">New Pokemon Image URL</label>
+                <input type="text" name="New Pokemon Image" id="new-pokemon-image-url">
+                <select id="pokemon-type-selector">
+                    <option selected disabled>Choose a type</option>
+                    <option>Fire</option>
+                    <option>Water</option>
+                    <option>Grass</option>
+                    <option>Ground</option>
+                    <option>Rock</option>
+                    <option>Ice</option>
+                    <option>Flying</option>
+                    <option>Dragon</option>
+                    <option>Psychic</option>
+                    <option>Ghost</option>
+                    <option>Fighting</option>
+                    <option>Electric</option>
+                    <option>Bug</option>
+                    <option>Fairy</option>
+                </select>
+                <input type="submit" value="Create Pokemon" class="submit">
+            </form>
+        </div>
+        
+        
+        <div id="search-by-letter">
+            <h1> Search for a Pokemon by the first letter of its name</h1>
+            <p>Please note, if you type in a full sentence/word, only the first character will be used.
+                Your Pokemon will show up in the list below!
+            </p>
+            <form id="search-form">
+                <input type="text" name="First Letter" id="letter-to-search">
+                <input type="submit" value="Find Pokemon by First Letter" class="submit">
+            </form>
+            <button id="show-all-pokemon">Click here to show all Pokemon in JSON</button>
+        </div>
+        
+        <div id ="pokemon-list-header">
+            <h1>List of Pokemon</h1>
+            <p> <span class="bold-and-underline">Note:</span>  You will always start out with Charmander, Bulbasaur, and Squirtle when this page loads, 
+                but feel free to do whatever you want with them!</p>
+        </div>
+            
+
+        <div id="pokemon-list">
+            <br>
+        </div>
+        
+        
+    </body>
+</html>
